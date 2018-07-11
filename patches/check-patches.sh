@@ -30,5 +30,6 @@ git apply -v --check ../../device/CUBOT/NOTE_S/patches/0005-fix-wlan-hidden-wifi
 cd ../..
 cd packages/apps/Settings
 git apply -v --check ../../../device/CUBOT/NOTE_S/patches/0001-add-MiraVision-in-Settings.patch
+git apply -v --check ../../../device/CUBOT/NOTE_S/patches/android_settings_developer_info.patch
 cd ../../..
 
