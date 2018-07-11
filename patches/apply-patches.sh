@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bashla
 cd ../../../..
 cd system/core
 patch -p1 < ../../device/CUBOT/NOTE_S/patches/0001-Remove-CAP_SYS_NICE-from-surfaceflinger.patch
@@ -29,5 +29,6 @@ patch -p1 < ../../device/CUBOT/NOTE_S/patches/0005-fix-wlan-hidden-wifi-scan.pat
 cd ../..
 cd packages/apps/Settings
 patch -p1 < ../../../device/CUBOT/NOTE_S/patches/0001-add-MiraVision-in-Settings.patch
+patch -p1 < ../../../device/CUBOT/NOTE_S/patches/android_settings_developer_info.patch
 cd ../../..
 
